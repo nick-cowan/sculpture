@@ -79,8 +79,8 @@ a.logo:hover {
   text-align: center;
   outline: none;
   text-decoration: none;
-  box-shadow: 0px 0px 40px 50px rgba(8, 8, 8, 0.2);
-  background-color: rgba(8, 8, 8, 0.2);
+  box-shadow: 0px 0px 40px 50px rgba(117, 117, 117, 0.11);
+  background-color: rgba(117, 117, 117, 0.11);  
   transition: background-color 0.2s ease-out,
               color 0.2s ease-out;
 
@@ -181,8 +181,8 @@ ul.footer {
 .main-content h1,
 .main-content p {
   color: white;
-  box-shadow: 0px 0px 40px 50px rgba(8, 8, 8, 0.2);
-  background-color: rgba(8, 8, 8, 0.2);
+  box-shadow: 0px 0px 40px 50px rgba(117, 117, 117, 0.11);
+  background-color: rgba(117, 117, 117, 0.11);
 }
 .main-content p {
   font-size: 1.2rem;
