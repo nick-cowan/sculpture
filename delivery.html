@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Nick Cowan</title>
+
+  <!-- font awesome stylesheet -->
+  <script src="https://use.fontawesome.com/de23871692.js"></script>
+
+  <!-- <link rel="stylesheet" href="./css/normalize.css" charset="utf-8"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+
+  <!-- hamburger navs -->
+  <link rel="stylesheet" href="/css/hamburgers.css">
+
+  <!-- fancybox -->
+  <link rel="stylesheet" href="./vendor/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+
+  <!-- My stylesheet -->
+  <link rel="stylesheet" href="./css/style.css" charset="utf-8">
+
+</head>
+
+  <body>
+
+    <nav>
+      <div class="column-menu-container-underline" >
+        <button class="hamburger hamburger--squeeze" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+
+      <section id="#navGroup" class="navigation">
+          <a class="logo" href="./index.html"><i class="fa fa-gavel fa-2x"></i></a>
+          <ul class="nav-links">
+            <li class="nav nav-links" id="home"><a href="./index.html">Home</a></li>
+            <li class="nav nav-links"><a href="./about.html">About</a></li>
+            <li class="nav nav-links"><a href="">Blog</a></li>
+            <li class="nav nav-links"><a href="./gallery.html">Gallery</a></li>
+            <li class="nav nav-links"><a href="./contact.html">Order a burger</a></li>
+          </ul>
+      </section>
+    </nav>
+
+    <div class="container">
+    <h1>Order a burger</h1>
+    <div>
+      <form id="burger-delivery" class="burger form-group" action="./thanks.html" method="checkbox">
+        <fieldset class="col-sm-12 col-md-8 col-lg-7">
+            <legend>Your details</legend>
+
+            <div class="form-group ">
+              <label for="fullName" class="form-control-label">Full name</label>
+              <input class="form-control" type="text" name="fullName" id="fullName" placeholder="eg Bill Burger" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-control-label">Email address</label>
+              <input class="form-control" type="email" name="email" id="email" required>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="col-sm-12 col-md-8 col-lg-7">
+
+            <legend>Delivery address</legend>
+            <div class="form-group">
+              <label for="address1" class="form-control-label">House or flat number</label>
+              <input class="form-control" type="text" name="address1" id="address1" placeholder="eg Flat 18" required>
+            </div>
+
+            <div class="form-group">
+              <label for="address2" class="form-control-label">Street</label>
+              <input class="form-control" type="text" name="address2" id="address2" placeholder="eg 13 Fairlop Road" required>
+            </div>
+
+            <div class="form-group">
+              <label for="address3" class="form-control-label">Town</label>
+              <input class="form-control" type="text" name="address3" id="address3" placeholder="Merseyside" required>
+            </div>
+
+            <div class="form-group">
+              <label for="postcode" class="form-control-label">Postcode</label>
+              <input class="form-control" type="text" name="postcode" id="postcode" placeholder="Postcode" required>
+            </div>
+
+            <div class="form-group">
+              <label for="instructions" class="form-control-label">Delivery instructions</label>
+              <textarea class="form-control" name="instructions" id="deliveryInstructions"></textarea>
+            </div>
+        </fieldset>
+
+        <div class="form-group col-sm-12 col-md-8 col-lg-7">
+          <button class="btn btn-success" type="submit">Order</button>
+        </div>
+
+      </form>
+
+    </div>
+
+    </div> <!-- /.container -->
+
+
+    <!-- footer start         -->
+        <footer class="footer container-fluid">
+          <ul class="footer footer-item">
+            <li><a class="footer-logo" href="mailto:nicholasedwardcowan@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
+            <li><a class="footer-logo" href="https://github.com/nick-cowan" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+            <li><a class="footer-logo" href="https://www.twitter.com/nickybisque" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+          </ul>
+          <p>
+            <i class="fa fa-copyright"></i> Nick Cowan 2016</p>
+
+        </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+
+    <!-- Add fancyBox -->
+    <script type="text/javascript" src="./vendor/fancybox/jquery.fancybox.pack.js"></script>
+
+    <script type="text/javascript" src="./vendor/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+
+</html>
